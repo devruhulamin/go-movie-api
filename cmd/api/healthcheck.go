@@ -4,7 +4,6 @@ import (
 	"net/http"
 )
 
-
 // send the server meta information to client json format
 func (app *application) healthcheckHandler(w http.ResponseWriter, r *http.Request) {
 
